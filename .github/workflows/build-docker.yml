@@ -4,7 +4,7 @@ name: Deploy Images to GHCR
 
 on:
   pull_request:
-    types: [labeled, edited]
+    types: [created, labeled, edited]
 
 jobs:
       push-store-image:
